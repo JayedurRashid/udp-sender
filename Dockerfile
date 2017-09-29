@@ -14,7 +14,7 @@ ADD . /app
 # EXPOSE 80
 
 # Define environment variable
-ENV NAME HelloWorld
+ENV NAME UdpSender
 
 # Run app.py when the container launches
 ENTRYPOINT ["python", "/app/src/udpsender.py"]
